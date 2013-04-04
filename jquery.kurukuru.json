@@ -1,0 +1,33 @@
+{
+  "name": "jquery.kurukuru",
+  "srcname": "kurukuru",
+  "title": "jQuery plugin kurukuru",
+  "description": "The best jQuery plugin ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/nak0yui/jquery.kurukuru.js",
+  "author": {
+    "name": "nak",
+    "email": "nak0yui@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nak0yui/jquery.kurukuru.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nak0yui/jquery.kurukuru.js/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/nak0yui/jquery.kurukuru.js/blob/master/LICENSE-MIT"
+    },
+    {
+      "type": "GPL",
+      "url": "https://github.com/nak0yui/jquery.kurukuru.js/blob/master/LICENSE-GPL"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">= 1.6"
+  },
+  "keywords": []
+}

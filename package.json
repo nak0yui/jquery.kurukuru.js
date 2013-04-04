@@ -1,0 +1,14 @@
+{
+  "srcname": "kurukuru",
+  "name": "jquery.kurukuru",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt qunit"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.12"
+  }
+}
