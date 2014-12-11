@@ -83,9 +83,9 @@
     };
     for (i = 0; i < preloader.length; i++) {
       var image = $('<img>');
-      image.attr('src',images[i]);
       image.load(load);
       image.error(error);
+      image.attr('src',images[i]);
       preloader.images.push(image);
     }
     return preloader;
