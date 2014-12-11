@@ -9,7 +9,7 @@
   "undef": true,
   "boss": true,
   "eqnull": true,
-  "browser": true
+  "browser": true,
   "globals": {
     "jQuery": true
   }
