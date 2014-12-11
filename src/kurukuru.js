@@ -1,11 +1,3 @@
-/*
- * jquery.kurukuru.js
- * https://github.com/nak0yui/jquery.kurukuru.js
- *
- * Copyright (c) 2012 nak
- * Licensed under the MIT, GPL licenses.
- */
-
 (function($) {
   'use strict';
   

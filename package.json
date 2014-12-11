@@ -1,14 +1,12 @@
 {
-  "srcname": "kurukuru",
   "name": "jquery.kurukuru",
-  "version": "0.1.0",
-  "engines": {
-    "node": ">= 0.6.0"
-  },
-  "scripts": {
-    "test": "grunt qunit"
-  },
+  "version": "0.2.0",
   "devDependencies": {
-    "grunt": "~0.3.12"
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-qunit": "^0.5.2",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1"
   }
 }

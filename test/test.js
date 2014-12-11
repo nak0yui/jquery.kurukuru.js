@@ -21,5 +21,8 @@
       notStrictEqual(actual, expected, [message])
       raises(block, [expected], [message])
   */
+  test("temp", function() {
+    ok(true, "temp is NG!");
+  });
 
 }(jQuery));

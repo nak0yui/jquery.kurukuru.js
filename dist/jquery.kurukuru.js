@@ -1,7 +1,4 @@
-/*! jQuery plugin kurukuru - v0.1.0 - 2013-04-04
-* https://github.com/nak0yui/jquery.kurukuru.js
-* Copyright (c) 2013 nak; Licensed MIT, GPL */
-
+/*! jQuery plugin kurukuru - v0.2.0 - 2014-12-11 https://github.com/nak0yui/jquery.kurukuru.js Copyright (c) 2014 nak; Licensed MIT, GPL */
 (function($) {
   'use strict';
   
