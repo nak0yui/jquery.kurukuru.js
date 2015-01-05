@@ -14,6 +14,7 @@
     loadingHtml: '<p>Now Loading...</p>',
     image: [],
     selectorZIndex: 0,
+    reverse: false,
     maskZIndex: 1000
   },
   /**
@@ -97,7 +98,7 @@
   var kurukuru = function(_elem, _option) {
     var
     kurukuru = {},
-    _opt = $.extend(true, defaultOptions, _option),
+    _opt = $.extend(true, {}, defaultOptions, _option),
     _$elem = $(_elem),
     _$mask,
     _current = _opt.defaultCurrent,
@@ -253,6 +254,7 @@
         }
         // Calculate the base range
         var positive = (pageX - _downPos < 0) ? -1 : 1;
+        positive = _opt.reverse ? positive * -1 : positive;
         var distance = Math.abs(pageX - _downPos);
         var length = _loadedImages.length;
         var moveToIndex = (distance / _opt.pixelChange);
