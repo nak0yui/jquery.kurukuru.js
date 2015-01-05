@@ -154,7 +154,11 @@
         }
         return true;
       },
-      
+
+      getCurrentIndex: function() {
+        return _current;
+      },
+
       cleanupOnlyNotCurrentImage: function() {
         _$elem.children('img').filter(function(index) {
           return index !== _current;
