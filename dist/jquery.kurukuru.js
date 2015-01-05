@@ -146,11 +146,8 @@
           kurukuru.destroy();
           kurukuru.init();
         } else {
-          _$mask.hide();
-          kurukuru.cleanupOnlyNotCurrentImage();
+          kurukuru.cleanup();
           loadImage(images);
-          kurukuru.cleanupOnlyCurrentImage();
-          _$mask.show();
         }
         return true;
       },
